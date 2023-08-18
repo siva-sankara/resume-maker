@@ -1,0 +1,32 @@
+.customer-container{
+    color: white;
+    background-color: black;
+    font-size: 20px;
+}
+.custmoers-list{
+    display: grid;
+    margin-top: 4em;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3.5em 2.5em ;
+}
+.customer-name{
+    color: rgb(231, 5, 43);
+}
+.customer-mes{
+    margin: 1.5em 0;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .custmoers-list{
+        grid-template-columns: 1fr;
+        gap: 1.5em ;
+        margin-top: 30px;
+    }
+    .customer-container{
+        font-size: 18px;
+    }
+    .customer-mes{
+        margin: 0.8em 0;
+    }
+}

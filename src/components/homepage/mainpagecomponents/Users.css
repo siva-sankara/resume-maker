@@ -1,0 +1,19 @@
+
+.user-container{
+    height: 400px;
+    background-image: url("../images/mainpage1-bg.png");
+    background-size: cover;
+    padding: auto;
+}
+.user-main{
+    
+    font-size: 22px;
+    text-align: center;
+    color: white;
+    align-items: center;
+    position: relative;
+    top: 40%;
+}
+.user-btn {
+    margin-top: 30px;
+}

@@ -1,0 +1,119 @@
+.starpoints-container {
+    background-color: black;
+    color: white;
+}
+
+.pointer-cont {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em 2em;
+}
+
+.point {
+    padding: 30px;
+}
+
+.point-desc {
+    color: gray;
+    font-size: 23px;
+    padding: 20px 0;
+}
+
+.point-img {
+    width: 70px;
+    padding: 20px;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, rgba(230, 31, 31, 0.616), rgb(160, 160, 190), rgba(0, 128, 0, 0.568));
+}
+
+.point-h1 {
+    margin: 0.5em 0em;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+/* mutli page */
+.multi-pages {
+    background-image: url('../images/mainpage1-bg.png');
+    background-size: cover;
+    object-fit: cover;
+}
+
+
+.mutlipage-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mutlipage-left p{
+    width: 69%;
+}
+
+.mutlipage-left h1 {
+    font-size: 3.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.mutlipage-right {
+    width: 60%;   
+}
+
+.sub--multipages {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 0;
+    justify-content: space-between;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .pointer-cont {
+        grid-template-columns: 1fr;
+        gap: 1.5em;
+
+    }
+
+    .sub--multipages {
+        flex-direction: column;
+        padding-top: 2em;
+        gap: 2em;
+    }
+
+    .mutlipage-left h1 {
+        font-size: 30px;
+    }
+
+    .mutlipage-left p{
+        width: 100%;
+    }
+
+    .mutlipage-right {
+        width: 100%;
+    }
+
+    .mutlipage-left {
+        width: 100%;
+        gap: 1.1em;
+    }
+
+    .point {
+        padding: 10px;
+    }
+    .point-h1 {
+        font-size: 25px;
+        
+    }
+    .point-desc{
+        font-size: 18px;
+    }
+    .multi-img{
+        width: 100%;
+    }
+    
+
+}

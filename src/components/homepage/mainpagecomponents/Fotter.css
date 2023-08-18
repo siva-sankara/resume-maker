@@ -1,0 +1,48 @@
+.footer--main{
+    display: flex;
+    justify-content: space-between;
+    padding:40px 60px;
+}
+.footer-container{
+    background-color: black;
+    color: white;
+}
+.footer-right ul li button{
+    color: white;
+    border: none;
+    margin: 15px 0;
+    background-color: transparent;
+}
+
+.footer-right ul li {
+ list-style: none;    
+}
+.f-p{
+    margin: 1.2em 0;
+}
+.footer-img{
+    height: 40px;
+    width: 90px;
+}
+.last-logo{
+    padding: 0 60px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .footer--main{
+        flex-direction: column;
+        padding: 30px 30px;
+    }
+    .footer-right ul{
+        margin-top: 30px;
+    }
+    .last-logo{
+        display: flex;
+        gap: 1em;
+        flex-direction: column-reverse;
+    }
+}
+
+
+

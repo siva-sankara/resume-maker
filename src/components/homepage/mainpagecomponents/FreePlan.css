@@ -1,0 +1,53 @@
+.freeplans-container{
+    background-color: black;
+    color: white;
+    padding:4em ;
+    font-size: 18px;
+
+}
+.sub-free-container h1{
+    text-align: center;
+    width: 70%;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0.5em auto;
+}
+.free-plan{
+   margin: 20px;
+   padding: 30px 60px;
+   line-height: 2.5em;
+   border-radius: 30px;
+   border: 2px solid white;
+}
+.overallplan{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.tick{
+    margin-right:15px ;
+}
+hr.hr-line{
+    margin: 0.6em 0;
+    background-image: linear-gradient(to right,rgba(2, 2, 2, 0.349),  rgb(38, 38, 194),rgb(218, 218, 16),rgb(16, 218, 26),rgb(12, 14, 12));
+    border: none;
+    height: 3px;
+    border-radius:2px;
+}
+ 
+@media only screen and (max-width: 768px) {
+    .overallplan{
+        flex-direction: column;
+    }
+    .free-plan{
+     width: 90%;
+     margin: 1.5em auto;
+     padding: 25px;
+    }
+    .sub-free-container h1{
+        font-size: 1.6rem;
+    }
+    .freeplans-container{
+    padding: 2em;
+    }
+}
